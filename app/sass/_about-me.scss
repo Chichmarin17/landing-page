@@ -1,0 +1,22 @@
+
+  .about-me {
+    padding-top: 120px;
+    padding-bottom: 107px;
+    background-color: $light-grey;
+    &__head {
+      margin-bottom: 17px;
+      @include header;      
+    }
+    &__paragraph {
+      text-align: center;
+      font-family: $font-family-regular;
+      font-size: $regular-font-size;
+      font-weight: 400;
+      line-height: 22px;
+      color: $black;
+
+      &:not(&:last-child) {
+        margin-bottom: 26px;
+      }
+    }
+  }

@@ -1,0 +1,35 @@
+
+  .portfolio {
+    margin: 0 auto;
+    padding-top: 113px;
+    padding-bottom: 96px;
+    background-color: $light-grey;
+    &__head {
+      margin-bottom: 47px;
+      @include header;
+    }
+    &__article {
+      &:not(&:last-child) {
+        margin-bottom: 99px;
+      }
+    }
+    &__img {
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 45px;
+    }
+    &__text {
+    }
+    &__link {
+      display: block;
+      font-family: $font-family-regular;
+      font-size: $regular-font-size;
+      font-weight: 400;
+      line-height: 22px;
+      text-align: center;
+      color: $black;
+      &:hover {}
+      &:active {}
+      &:focus {}
+    }
+  }

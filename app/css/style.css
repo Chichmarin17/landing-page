@@ -1,0 +1,167 @@
+@font-face {
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Gilroy-Medium.ttf); }
+
+@font-face {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  src: url(../fonts/Gilroy-Bold.ttf); }
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1445px; }
+
+.content:not(.content:nth-child(2)):not(.content:nth-child(4)) {
+  margin: 0 auto;
+  max-width: 940px; }
+
+.header {
+  padding-top: 33px;
+  padding-bottom: 105px; }
+  .header__nav {
+    padding-bottom: 32px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #828282;
+    transform: matrix(1, 0, 0, 1, 0, 0); }
+  .header__list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between; }
+  .header__link {
+    font-family: "Gilroy", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+    text-decoration: none; }
+  .header__text {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px; }
+  .header__name {
+    font-family: "Gilroy-bold", sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+    color: #070707; }
+  .header__status {
+    align-self: flex-end;
+    font-family: "Gilroy", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #070707; }
+  .header__lang {
+    margin-right: 20px;
+    transform: rotate(-90deg);
+    transform-origin: top right;
+    align-self: center;
+    font-family: "Gilroy-bold", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px; }
+  .header__img {
+    width: 100%;
+    height: 387px; }
+
+.lang-switcher__ru {
+  color: #828282; }
+
+.lang-switcher__switch {
+  color: #070707; }
+
+.lang-switcher__eng {
+  color: #070707; }
+
+.about-me {
+  padding-top: 120px;
+  padding-bottom: 107px;
+  background-color: #F6F6F6; }
+  .about-me__head {
+    margin-bottom: 17px;
+    font-family: "Gilroy-bold", sans-serif;
+    font-size: 34px;
+    line-height: 42px;
+    font-weight: 600;
+    text-align: center;
+    color: #070707; }
+  .about-me__paragraph {
+    text-align: center;
+    font-family: "Gilroy", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #070707; }
+    .about-me__paragraph:not(.about-me__paragraph:last-child) {
+      margin-bottom: 26px; }
+
+.skills {
+  padding-top: 90px;
+  padding-bottom: 110px; }
+  .skills__head {
+    margin-bottom: 90px;
+    font-family: "Gilroy-bold", sans-serif;
+    font-size: 34px;
+    line-height: 42px;
+    font-weight: 600;
+    text-align: center;
+    color: #070707; }
+  .skills__text {
+    margin-bottom: 83px;
+    font-family: "Gilroy", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center; }
+  .skills__programms {
+    display: flex;
+    justify-content: space-between; }
+
+.programm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; }
+  .programm__img {
+    display: block;
+    margin-bottom: 24px; }
+  .programm__description {
+    margin-bottom: 42px;
+    font-family: "Gilroy", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+    text-align: center; }
+
+.portfolio {
+  margin: 0 auto;
+  padding-top: 113px;
+  padding-bottom: 96px;
+  background-color: #F6F6F6; }
+  .portfolio__head {
+    margin-bottom: 47px;
+    font-family: "Gilroy-bold", sans-serif;
+    font-size: 34px;
+    line-height: 42px;
+    font-weight: 600;
+    text-align: center;
+    color: #070707; }
+  .portfolio__article:not(.portfolio__article:last-child) {
+    margin-bottom: 99px; }
+  .portfolio__img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 45px; }
+  .portfolio__link {
+    display: block;
+    font-family: "Gilroy", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    color: #070707; }
+
+/*# sourceMappingURL=style.css.map */

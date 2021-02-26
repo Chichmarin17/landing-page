@@ -1,0 +1,18 @@
+$regular-font-size: 18px;
+$regular-font-weigth: 400; 
+
+$grey: #828282;
+$black: #070707;
+$light-grey: #F6F6F6;
+
+$font-family-regular: "Gilroy", sans-serif;
+$font-family-bold: "Gilroy-bold", sans-serif;
+
+@mixin header {
+  font-family: $font-family-bold;
+  font-size: 34px;
+  line-height: 42px;
+  font-weight: 600;
+  text-align: center;
+  color: $black;
+}
