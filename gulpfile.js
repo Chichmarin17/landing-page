@@ -159,6 +159,11 @@ gulp.task('fonts', function () {
 		.pipe(gulp.dest(path.dist.fonts))
 });
 
+gulp.task('css', function () {
+	return gulp.src('app/css/**/*')
+		.pipe(gulp.dest(path.dist.css))
+});
+
 gulp.task('clean', function (cb) {
 	del('dist');
 	cb();
@@ -167,6 +172,6 @@ gulp.task('clean', function (cb) {
 //gulp.task('default', gulp.series('sass','watch'));
 gulp.task('dev', gulp.series('watch'));
 
-gulp.task('build', gulp.series('clean', 'sass:build', 'useref', 'images', 'fonts', 'script', 'build:delhtmlcomm', function (done) {
+gulp.task('build', gulp.series('clean', 'sass:build', 'useref', 'images', 'fonts', 'script', 'css', 'build:delhtmlcomm', function (done) {
     done();
 }));
