@@ -16,8 +16,20 @@
       text-align: center;
     } 
     &__programms {
-      display: flex;
-      justify-content: space-between;
+      // display: flex;
+      // justify-content: space-between;
+      display: grid;
+      grid-template-columns: repeat(4, auto);
+      @media screen and (max-width: 770px) {
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(2, auto);
+        row-gap: 90px;
+      }
+      @media screen and (max-width: $media-phone) {
+        grid-template-columns: auto;
+        grid-template-rows: repeat(3, auto);
+        row-gap: 90px;
+      }
     }
     &__programm {
     } 
@@ -47,5 +59,8 @@
 
 .rating {
   &__star {
+    &:not(&:last-child) {
+      margin-right: 9px;
+    }
   }
 }
